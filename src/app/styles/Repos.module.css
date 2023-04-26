@@ -1,0 +1,50 @@
+
+.reposPage{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.reposList{
+
+    height: fit-content;
+    padding: 2em;
+    margin-bottom: 1em;
+    background: white;
+    gap: 1em;
+    border-radius: .5em;
+
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.repoCard{
+    color: black;
+    border: 1px solid black;
+    margin-bottom: 1em;
+    border-radius: .5em;
+    padding: 1em;
+    transition: all ease 250ms;
+
+}
+
+.repoCard:hover{
+    transform: scale(1.1);
+}
+
+
+.repoDetails{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}

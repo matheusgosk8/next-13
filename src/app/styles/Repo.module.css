@@ -1,0 +1,54 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     background-color: white;
+     color: black;
+     padding: 2em ;
+     margin-top: 1em;
+     border-radius: .5em;
+}
+
+
+.button{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    outline: 2px solid black;
+    outline-offset: 2px;
+    border-radius: .5em;
+    padding: .5em;
+
+}
+
+.button:hover{
+    color: black;
+    background-color: white;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+
+.repoCard{
+    color: black;
+    margin-bottom: 1em;
+    border-radius: .5em;
+    padding: 1em;
+    transition: all ease 250ms;
+
+}
+
+.repoCard:hover{
+    transform: scale(1.1);
+}
+
+
+.repoDetails{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}

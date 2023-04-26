@@ -1,0 +1,56 @@
+
+.navPage{
+    display: flex;
+    flex-direction: column;
+    background: blue;  
+    border-bottom: 5px solid white;
+}
+
+.primaryLogo{
+    text-align: center;
+}
+
+.nav{
+    display: grid;
+    grid-template-columns: 20vw 60vw 20vw;
+    align-items: center;
+}
+
+
+.logo{
+
+    padding-left: 2em;
+}
+
+
+.navigation{
+    padding-left: 2em;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    opacity: .8;
+
+    transition: opacity ease 250ms;
+}
+
+.link:hover{
+    opacity: 1;
+}
+
+.options{
+   width: fit-content;
+    padding-right: 1em;
+    text-align: right;
+}
+
+.repoDetails{
+    color: black;
+}
